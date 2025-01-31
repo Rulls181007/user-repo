@@ -1,0 +1,119 @@
+/* Reset beberapa margin dan padding default untuk tampilan yang lebih bersih */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font secara umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Styling untuk judul halaman */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk form pencarian */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling label dan input form */
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #444;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Agar input mengisi seluruh lebar form */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Styling untuk hasil pencarian */
+/* Styling untuk hasil pencarian */
+h2 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 2em; /* Ukuran font lebih besar untuk hasil pencarian */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center; /* Mengatur teks di tengah */
+}
+
+ul li .product-image {
+    margin-top: 10px;
+}
+
+ul li img {
+    border-radius: 4px;
+    margin-top: 10px; /* Memberikan jarak antara gambar dan teks */
+    width: 550px;  /* Ukuran gambar lebih besar */
+    height: auto;  /* Menjaga rasio gambar */
+}
+
+ul li strong {
+    font-size: 0,5em; /* Ukuran font lebih besar untuk nama produk */
+    color: #333; /* Menambahkan warna pada nama produk */
+}
+
+ul li p {
+    font-size: 1.5em; /* Ukuran font lebih besar untuk deskripsi produk */
+    color: #555; /* Menambahkan warna untuk deskripsi */
+    line-height: 1.6; /* Memberikan jarak antar baris untuk kenyamanan membaca */
+}
+
+ul li:hover {
+    background-color: #f9f9f9;
+}
+
+p {
+    color: #d9534f;
+    font-size: 1.2em;
+}

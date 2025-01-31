@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 300px;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.user-menu .username {
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Main Content */
+.main-container {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+    color: #3b5998;
+}
+
+/* Feed */
+.feed {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-header .username {
+    font-weight: bold;
+}
+
+.post-header .timestamp {
+    font-size: 14px;
+    color: #777;
+}
+
+.post-content {
+    margin-top: 15px;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.post-actions button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-actions button:hover {
+    background-color: #4c6aa7;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.trending h2 {
+    margin-bottom: 15px;
+}
+
+.trending ul {
+    list-style-type: none;
+}
+
+.trending ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b5998;
+    color: white;
+    margin-top: 20px;
+}
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* General styles for oval buttons */
+.oval-button {
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for Login button */
+.oval-button.login {
+    background-color: #007bff;
+    color: white;
+}
+
+.oval-button.login:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styles for Sign Up button */
+.oval-button.signup {
+    background-color: #28a745;
+    color: white;
+}
+
+.oval-button.signup:hover {
+    background-color: #218838;
+}
