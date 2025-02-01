@@ -357,7 +357,7 @@ $conn->close();
 
             <div class="menu">
                 <ul class="nav-links">
-                    <li><a href="Index.php">Beranda</a></li>
+                    <li><a href="dashboard.php">Beranda</a></li>
                     <li><a href="About.php">About</a></li>
                     <li><a href="Data_Arsip.php">Data Arsip</a></li>
                     <li><a href="Galeri.php">Galeri</a></li>
