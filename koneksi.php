@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "mini_googledb";
+$dbname = "mini_googledb.sql";
 
 // Membuat koneksi
 $conn = new mysqli($host, $username, $password, $dbname);
